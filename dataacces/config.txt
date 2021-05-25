@@ -1,5 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Servidor:GIfmry6grVrvMLmqytLc4w==
+BaseDeDatos:ndHR/prZV/ZmiSKRzvVOYg==
+Usuario:fHiy+DB9bnPRDV6Ct4uBwg==
+Password:SIRKbl93OShaIxoexpBD0Q==
+=======
+>>>>>>> 1d06a70 (commit de registro terceros y registro productos)
 
 Server:NFZ0T1I2V3FnOFdMOFRtSU9scTRSdz09
 BD:WVB4TkYrV3RVcjJpbmJpNE5CQWV6QT09
 User:YlFUL0x1WlFHSEdyM2ZlamRnZ1k5UT09
+<<<<<<< HEAD
 Pass:bTlvby9vWXM4MTFPSlo0dUhuT1RpZz09
+=======
+Pass:bTlvby9vWXM4MTFPSlo0dUhuT1RpZz09
+>>>>>>> 629fbc7 (commit configuracion de la base de datos, head, footer y formulario para el registro de usuario)
+>>>>>>> 1d06a70 (commit de registro terceros y registro productos)

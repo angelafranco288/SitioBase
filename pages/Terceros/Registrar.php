@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UNIPIG | Registro Terceros</title>
     <?php
-    include_once('../Templates/head.php');
+    include_once('Templates/head.php');
     ?>
 </head>
 
@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="col-8">
                                     <h1 class="login-box-msg">Registrar Terceros</h1>
-                                    <form action="../business/configuracion.php" method="POST">
+                                    <form action="../business/Terceros.php" method="POST">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" placeholder="Identificación" id="txtidTercero" name="txtidTercero" maxlength="12" required>
                                             <div class="input-group-append">
@@ -83,6 +83,7 @@
                                         </div>
                                         <div class="col-12">
                                             <button type="submit" class="btn btn-block btn-success">Registrarse</button>
+                                            <input type="hidden" name="txtOperacion" id="txtOperacion" value="Registrar">
                                         </div>
                                     </form>
                                 </div>
@@ -98,11 +99,11 @@
         </div>
         <!-- /.content-wrapper -->
         <?php
-        include_once('../Templates/footer.php');
+        include_once('Templates/footer.php');
         ?>
     </div>
     <?php
-    include_once('../Templates/foot.php');
+    include_once('Templates/foot.php');
     ?>
 </body>
 

@@ -4,5 +4,5 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2021 Angela Franco <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2021 Angela Franco</strong> All rights reserved.
   </footer>

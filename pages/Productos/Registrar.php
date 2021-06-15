@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UNIPIG | Registro Productos</title>
     <?php
-    include_once('../Templates/head.php');
+    include_once('Templates/head.php');
     ?>
 </head>
 
@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="col-8">
                                     <h1 class="login-box-msg">Registrar Productos</h1>
-                                    <form action="../business/configuracion.php" method="POST">
+                                    <form action="../business/Productos.php" method="POST">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" placeholder="Código del Producto" id="txtCodigo" name="txtCodigo" maxlength="20" required>
                                             <div class="input-group-append">
@@ -34,7 +34,7 @@
                                             </div>
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Nombre Producto" id="txtNommbre" name="txtNombre" maxlength="45" required>
+                                            <input type="text" class="form-control" placeholder="Nombre Producto" id="txtNombre" name="txtNombre" maxlength="45" required>
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-star"></span>
@@ -82,7 +82,8 @@
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <button type="submit" class="btn btn-block btn-success">Registrarse</button>
+                                            <button type="submit" class="btn btn-block btn-success">Registrar Producto</button>
+                                            <input type="hidden" name="txtOperacion" id="txtOperacion" value="Registrar">
                                         </div>
                                     </form>
                                 </div>
@@ -98,11 +99,11 @@
         </div>
         <!-- /.content-wrapper -->
         <?php
-        include_once('../Templates/footer.php');
+        include_once('Templates/footer.php');
         ?>
     </div>
     <?php
-    include_once('../Templates/foot.php');
+    include_once('Templates/foot.php');
     ?>
 </body>
 

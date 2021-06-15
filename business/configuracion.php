@@ -1,7 +1,5 @@
 <?php
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 include('../Entidades/configuracion.php');
 include('../dataacces/ConfiguracionData.php');
 

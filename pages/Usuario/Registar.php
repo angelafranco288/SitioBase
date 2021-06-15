@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UNIPIG | Registro usuario</title>
-    <?php
-    include_once('../Templates/head.php');
-    ?>
-</head>
-
-<body class="hold-transition sidebar-mini">
-    <div class="wrapper">
-        <div class="content-wrapper">
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-2">
-                        </div>
-                        <div class="card-body register-card-body">
+<div class="card-body register-card-body">
                             <div class="row">
                                 <div class="col-2">
                                 </div>
                                 <div class="col-8">
                                     <h1 class="login-box-msg">Registrar usuario</h1>
-                                    <form action="../business/configuracion.php" method="POST">
+                                    <form action="../business/usuarios.php" method="POST">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" placeholder="Nombre usuario" id="txtnombreUsuario" name="txtnombreUsuario" maxlength="20" required>
                                             <div class="input-group-append">
@@ -82,7 +62,7 @@
                                             </div>
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input type="number" class="form-control" placeholder="Nùmero de celular" id="txtnumCelular" name="txtnumCelular" maxlength="15" required>
+                                            <input type="text" class="form-control" placeholder="Nùmero de celular" id="txtnumCelular" name="txtnumCelular" maxlength="15" required>
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-mobile"></span>
@@ -118,6 +98,7 @@
 
                                         <div class="col-12">
                                             <button type="submit" class="btn btn-block btn-success">Registrarse</button>
+                                            <input type="hidden" id="txtOperacion" name="txtOperacion" value="Registrar">
                                         </div>
                                     </form>
                                 </div>
@@ -125,20 +106,3 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.content-wrapper -->
-        <?php
-        include_once('../Templates/footer.php');
-        ?>
-    </div>
-    <?php
-    include_once('../Templates/foot.php');
-    ?>
-</body>
-
-</html>
